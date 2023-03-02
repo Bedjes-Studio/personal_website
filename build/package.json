@@ -1,9 +1,12 @@
 {
     "scripts": {
-        "build": "node build.js & xcopy static ..\\public\\ /E/H/Y"
+        "build": "node build.js & xcopy static ..\\public\\ /E/H/Y",
+        "nodemon-build": "nodemon -e js,ejs --watch ./views/pages --exec npm run build & npm run update-public",
+        "update-public": "xcopy static ..\\public\\ /E/H/Y"
     },
     "dependencies": {
-        "ejs-html-compiler": "^1.0.1"
+        "ejs-html-compiler": "^1.0.1",
+        "nodemon": "^2.0.20"
     },
     "devDependencies": {
         "eslint": "^8.35.0",
