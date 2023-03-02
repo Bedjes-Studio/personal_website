@@ -1,0 +1,12 @@
+{
+    "scripts": {
+        "build": "node build.js & xcopy static ..\\public\\ /E/H/Y"
+    },
+    "dependencies": {
+        "ejs-html-compiler": "^1.0.1"
+    },
+    "devDependencies": {
+        "eslint": "^8.35.0",
+        "eslint-config-google": "^0.14.0"
+    }
+}
