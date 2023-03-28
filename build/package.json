@@ -1,7 +1,7 @@
 {
     "scripts": {
         "build": "node build.js & xcopy static ..\\public\\ /E/H/Y",
-        "nodemon-build": "nodemon -e js,ejs --watch ./views/pages --exec npm run build & npm run update-public",
+        "nodemon-build": "nodemon -e js,ejs --watch ./views/* --exec npm run build & npm run update-public",
         "update-public": "xcopy static ..\\public\\ /E/H/Y"
     },
     "dependencies": {
