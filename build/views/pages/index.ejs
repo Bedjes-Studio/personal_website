@@ -3,16 +3,17 @@
 
 <%- include('../partials/head'); %>
 
-    <body>
-        <div class="main_container">
-            <%- include('../partials/header'); %>
+<body>
+    <div class="main_container">
+        <%- include('../partials/header'); %>
 
-                <div class="main">
-                    <%- include('../partials/about'); %>
-                        <%- include('../partials/portfolio'); %>
-                </div>
+        <div class="main">
+            <%- include('../partials/index/about'); %>
+            <%- include('../partials/index/technos'); %>
+            <%- include('../partials/index/portfolio'); %>
         </div>
-        <%- include('../partials/footer'); %>
-    </body>
+    </div>
+    <%- include('../partials/footer'); %>
+</body>
 
 </html>
