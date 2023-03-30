@@ -172,7 +172,7 @@ a {
 
  .tool_container {
     margin: 10px 20px;
-    width: 18%;
+    width: 10%;
     background-color: #32b3f8;
     border-radius: 50%;
     border-color: var(--second_background_color);
@@ -187,7 +187,7 @@ a {
  }
 
  .tool_container:hover {
-    transform: scale(1.1);
+    transform: scale(1.1) translateY(-10px);
  }
 
 /*

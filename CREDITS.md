@@ -10,6 +10,8 @@ Some images are protected by copyright, thank you for your contribution.
 * Freepik - [Logo C++](https://www.flaticon.com/free-icon/c_6132222)
 * Freepik - [Logo Java](https://www.flaticon.com/free-icon/java_5968282)
 * Freepik - [Logo Jira](https://www.flaticon.com/free-icon/jira_5968875)
+* Freepik - [Logo Python](https://www.flaticon.com/free-icon/python_5968350)
+* Freepik - [Logo CV](https://www.flaticon.com/free-icon/cv_3135686)
 * HiClipart - [Logo NodeJS](https://www.hiclipart.com/free-transparent-background-png-clipart-fcxmi)
 * Git - [Logo Git](https://git-scm.com/downloads/logos)
 * Logowik - [Logo VS Code](https://logowik.com/visual-studio-code-vector-logo-1-5273.html)
