@@ -1,0 +1,11 @@
+<a class="portfolio_item hvr-radial-out" href="<%= link %>">
+    <div class="project_container">
+        <img class="project_image" src="images/portfolio/<%= image %>" alt="<%= alt %>">
+        <div class="project_tag_container">
+            <% for(let i = 0; i < tags.length; ++i) {%>
+            <p class="project_tag <%= tags[i].class %>"><%= tags[i].content %></p>
+            <% } %>
+        </div>
+    </div>
+    <p class="project_title"><%= title %></p>
+</a>

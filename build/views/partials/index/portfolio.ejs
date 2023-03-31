@@ -1,83 +1,76 @@
 <div class="portfolio_container">
     <p class="portfolio_title">Portfolio</p>
-    
+
     <div class="portfolio">
-        <a class="container_project" href="dodge.html">
-            <img class="project_image" src="images/portfolio/logo_dodge.png" alt="Logo Dodge">
-            <p class="project_title">Dodge</p>
-            <div class="project_tag_container">
-                <p class="project_tag tag_platform">Mobile</p>
-                <p class="project_tag tag_bjs">Bedjes Studio</p>
-                <p class="project_tag tag_language">Java</p>
-            </div>
-        </a>
 
-        <a class="container_project" href="bbt.html">
-            <img class="project_image" src="images/portfolio/logo_bbt.png" alt="Logo BBT">
-            <p class="project_title">BBT</p>
-            <div class="project_tag_container">
-                <p class="project_tag tag_bjs">Projet d'étude</p>
-                <p class="project_tag tag_language">Python</p>
-            </div>
-        </a>
+        <%- include('portfolio_item', 
+        {title: "Dodge",
+        link: "dodge.html", 
+        image: "logo_dodge.png",
+        alt:"Logo Dodge",
+        tags: [{class: "tag_platform", content:"Mobile"},
+                {class: "tag_bjs", content:"Bedjes Studio"},
+                {class: "tag_language", content:"Java"}] }); %>
 
-        <a class="container_project" href="mon_site.html">
-            <img class="project_image" src="images/portfolio/html_css.png" alt="Logo HTML/CSS">
-            <p class="project_title">Mon site</p>
-            <div class="project_tag_container">
-                <p class="project_tag tag_language">HTML</p>
-                <p class="project_tag tag_language">CSS</p>
+        <%- include('portfolio_item', 
+        {title: "BBT",
+        link: "bbt.html", 
+        image: "logo_bbt.png",
+        alt:"Logo BBT",
+        tags: [{class: "tag_platform", content:"PC"},
+                {class: "tag_bjs", content:"Projet d'étude"},
+                {class: "tag_language", content:"Python"}] }); %>
 
-            </div>
-        </a>
+        <%- include('portfolio_item', 
+        {title: "Mon site",
+        link: "mon_site.html", 
+        image: "html_css.png",
+        alt:"Logo HTML/CSS",
+        tags: [{class: "tag_language", content:"HTML"},
+                {class: "tag_language", content:"CSS"}] }); %>
 
-        <a class="container_project" href="attestations.html">
-            <img class="project_image" src="images/portfolio/logo_generateur.png" alt="Logo Générateur d'attestations">
-            <p class="project_title">Générateur d'attestations</p>
-            <div class="project_tag_container">
-                <p class="project_tag tag_platform">Mobile</p>
-                <p class="project_tag tag_bjs">Bedjes Studio</p>
-                <p class="project_tag tag_language">Java</p>
-            </div>
-        </a>
+        <%- include('portfolio_item', 
+        {title: "Générateur d'attestations",
+        link: "attestations.html", 
+        image: "logo_generateur.png",
+        alt:"Logo Générateur d'attestations",
+        tags: [{class: "tag_platform", content:"Mobile"},
+                {class: "tag_bjs", content:"Bedjes Studio"},
+                {class: "tag_language", content:"Java"}] }); %>
 
+        <%- include('portfolio_item', 
+        {title: "Mimot",
+        link: "mimot.html", 
+        image: "logo_mimot.png",
+        alt:"Logo Mimot",
+        tags: [{class: "tag_platform", content:"Mobile"},
+                {class: "tag_bjs", content:"Bedjes Studio"},
+                {class: "tag_language", content:"Java"}] }); %>
 
-        <a class="container_project" href="mimot.html">
-            <img class="project_image" src="images/portfolio/logo_mimot.png" alt="Logo Mimot">
-            <p class="project_title">Mimot</p>
-            <div class="project_tag_container">
-                <p class="project_tag tag_platform">Mobile</p>
-                <p class="project_tag tag_bjs">Bedjes Studio</p>
-                <p class="project_tag tag_language">Java</p>
-            </div>
-        </a>
+        <%- include('portfolio_item', 
+        {title: "Bertiman",
+        link: "bertiman.html", 
+        image: "logo_bertiman.png",
+        alt:"Logo Bertiman",
+        tags: [{class: "tag_platform", content:"Gamebuino"},
+                {class: "tag_bjs", content:"Bedjes Studio"},
+                {class: "tag_language", content:"C++"}] }); %>
 
+        <%- include('portfolio_item', 
+        {title: "Infection",
+        link: "infection.html", 
+        image: "logo_infection.png",
+        alt:"Logo Infection",
+        tags: [{class: "tag_platform", content:"Web"},
+                {class: "tag_bjs", content:"Bedjes Studio"},
+                {class: "tag_job", content:"Graphiste"}] }); %>
 
-        <a class="container_project" href="bertiman.html">
-            <img class="project_image" src="images/portfolio/logo_bertiman.png" alt="Logo Bertiman">
-            <p class="project_title">Bertiman</p>
-            <div class="project_tag_container">
-                <p class="project_tag tag_platform">Gamebuino</p>
-                <p class="project_tag tag_language">C++</p>
-            </div>
-        </a>
-
-        <a class="container_project" href="infection.html">
-            <img class="project_image" src="images/portfolio/logo_infection.png" alt="Logo Infection">
-            <p class="project_title">Infection</p>
-            <div class="project_tag_container">
-                <p class="project_tag tag_bjs">Bedjes Studio</p>
-                <p class="project_tag tag_job">Graphiste</p>
-            </div>
-        </a>
-
-        <a class="container_project" href="bedjes_studio.html">
-            <img class="project_image" src="images/portfolio/logo_bjs.png" alt="Logo Bedjes Studio">
-            <p class="project_title">Bedjes Studio</p>
-            <div class="project_tag_container">
-                <p class="project_tag tag_job">Développeur</p>
-                <p class="project_tag tag_job">Graphiste</p>
-            </div>
-        </a>
+        <%- include('portfolio_item', 
+        {title: "Bedjes Studio",
+        link: "bedjes_studio.html", 
+        image: "logo_bjs.png",
+        alt:"Logo Bedjes Studio",
+        tags: [{class: "tag_job", content:"Développeur"},
+                {class: "tag_job", content:"Graphiste"}] }); %>
     </div>
 </div>
