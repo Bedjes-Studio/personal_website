@@ -39,6 +39,10 @@ body {
     margin: 0;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 a {
     color: var(--main_text_color);
     text-underline-offset: 3px;
@@ -231,7 +235,7 @@ a {
 }
 
 .hvr-outline-out:before {
-    content: '';
+    content: "";
     position: absolute;
     border: var(--portfolio_background_color) solid 4px;
     border-radius: 10px;
@@ -245,7 +249,9 @@ a {
     transition-property: top, right, bottom, left;
 }
 
-.hvr-outline-out:hover:before, .hvr-outline-out:focus:before, .hvr-outline-out:active:before {
+.hvr-outline-out:hover:before,
+.hvr-outline-out:focus:before,
+.hvr-outline-out:active:before {
     top: -8px;
     right: -8px;
     bottom: -8px;
