@@ -4,73 +4,109 @@
     <p class="tools_type">Développement</p>
 
     <div class="tools">
-        <a class="tool_container" href="https://unity.com/" target="_blank">
-            <img class="tools_img" src="images/tools/unity.png" alt="Logo Unity">
-        </a>
-        <a class="tool_container" href="https://www.unrealengine.com/" target="_blank">
-            <img class="tools_img" src="images/tools/unreal.png" alt="Logo Unreal Engine">
-        </a>
 
-        <a class="tool_container" href="https://nodejs.org/" target="_blank">
-            <img class="tools_img" src="images/tools/nodejs.png" alt="Logo NodeJS">
-        </a>
+        <%- include('technos_item', 
+        {link: "https://unity.com/", 
+        image: "unity.png",
+        alt:"Logo Unity",
+        }); %>
 
-        <a class="tool_container" href="https://www.jetbrains.com/rider/" target="_blank">
-            <img class="tools_img" src="images/tools/rider.png" alt="Logo Rider">
-        </a>
+        <%- include('technos_item', 
+        {link: "https://www.unrealengine.com/", 
+        image: "unreal.png",
+        alt:"Logo Unreal Engine",
+        }); %>
 
-        <a class="tool_container" href="https://developer.android.com/studio" target="_blank">
-            <img class="tools_img" src="images/tools/android_studio.png" alt="Logo Android Studio">
-        </a>
-        
-        <a class="tool_container" href="https://code.visualstudio.com/" target="_blank">
-            <img class="tools_img" src="images/tools/vs_code.png" alt="Logo VS Code">
-        </a>
+        <%- include('technos_item', 
+        {link: "https://nodejs.org/", 
+        image: "nodejs.png",
+        alt:"Logo NodeJS",
+        }); %>
 
-       
+        <%- include('technos_item', 
+        {link: "https://www.jetbrains.com/rider/", 
+        image: "rider.png",
+        alt:"Logo Rider",
+        }); %>
 
-        <a class="tool_container" href="https://remix-project.org/" target="_blank">
-            <img class="tools_img" src="images/tools/remix.png" alt="Logo Remix IDE">
-        </a>
+        <%- include('technos_item', 
+        {link: "https://developer.android.com/studio", 
+        image: "android_studio.png",
+        alt:"Logo Android Studio",
+        }); %>
 
-        <a class="tool_container" href="https://learn.microsoft.com/cpp/" target="_blank">
-            <img class="tools_img" src="images/tools/cpp.png" alt="Logo C++">
-        </a>
-        <a class="tool_container" href="https://www.java.com/" target="_blank">
-            <img class="tools_img" src="images/tools/java.png" alt="Logo Java">
-        </a>
-        <a class="tool_container" href="https://www.python.org/" target="_blank">
-            <img class="tools_img" src="images/tools/python.png" alt="Logo Python">
-        </a>
+        <%- include('technos_item', 
+        {link: "https://code.visualstudio.com/", 
+        image: "vs_code.png",
+        alt:"Logo VS Code",
+        }); %>
 
+        <%- include('technos_item', 
+        {link: "https://remix-project.org/", 
+        image: "remix.png",
+        alt:"Logo Remix IDE",
+        }); %>
 
-        <a class="tool_container" href="https://www.wampserver.com/" target="_blank">
-            <img class="tools_img" src="images/tools/wamp.png" alt="Logo WAMP">
-        </a>
+        <%- include('technos_item', 
+        {link: "https://learn.microsoft.com/cpp/", 
+        image: "cpp.png",
+        alt:"Logo C++",
+        }); %>
+
+        <%- include('technos_item', 
+        {link: "https://www.java.com/", 
+        image: "java.png",
+        alt:"Logo Java",
+        }); %>
+
+        <%- include('technos_item', 
+        {link: "https://www.python.org/", 
+        image: "python.png",
+        alt:"Logo Python",
+        }); %>
+
+        <%- include('technos_item', 
+        {link: "https://www.wampserver.com/", 
+        image: "wamp.png",
+        alt:"Logo WAMP",
+        }); %>
+
     </div>
 
     <p class="tools_type">Gestion de projets</p>
 
     <div class="tools">
-        <a class="tool_container" href="https://git-scm.com/" target="_blank">
-            <img class="tools_img" src="images/tools/git.png" alt="Logo Git">
-        </a>
 
-        <a class="tool_container" href="https://www.perforce.com/products/helix-core-apps/helix-visual-client-p4v" target="_blank">
-            <img class="tools_img" src="images/tools/perforce.png" alt="Logo Perforce">
-        </a>
+        <%- include('technos_item', 
+        {link: "https://git-scm.com/", 
+        image: "git.png",
+        alt:"Logo Git",
+        }); %>
 
-        <a class="tool_container" href="https://trello.com" target="_blank">
-            <img class="tools_img" src="images/tools/trello.png" alt="Logo Trello">
-        </a>
+        <%- include('technos_item', 
+        {link: "https://www.perforce.com/products/helix-core-apps/helix-visual-client-p4v", 
+        image: "perforce.png",
+        alt:"Logo Perforce",
+        }); %>
 
-        <a class="tool_container" href="https://www.atlassian.com/fr/software/jira" target="_blank">
-            <img class="tools_img" src="images/tools/jira.png" alt="Logo Jira">
-        </a>
+        <%- include('technos_item', 
+        {link: "https://trello.com", 
+        image: "trello.png",
+        alt:"Logo Trello",
+        }); %>
 
-        <a class="tool_container" href="https://www.lucidchart.com/" target="_blank">
-            <img class="tools_img" src="images/tools/lucidchart.png" alt="Logo Lucid Chart">
-        </a>
+        <%- include('technos_item', 
+        {link: "https://www.atlassian.com/fr/software/jira", 
+        image: "jira.png",
+        alt:"Logo Jira",
+        }); %>
+
+        <%- include('technos_item', 
+        {link: "https://www.lucidchart.com/", 
+        image: "lucidchart.png",
+        alt:"Logo Lucid Chart",
+        }); %>
+
     </div>
 
 </div>
